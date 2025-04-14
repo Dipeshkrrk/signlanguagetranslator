@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import HowToUse from '../components/HowToUse';
 import AboutUs from '../components/AboutUs';
 import CallToAction from '../components/CalltoAction';
+import GlassCTA from '../components/GlassCTA';
 import { motion } from 'framer-motion';
 
 const Homepage = () => {
@@ -13,8 +14,8 @@ const Homepage = () => {
       style={{ backgroundImage: "url('src/assets/ds.png')" }}
     >
       <Header />
-
       <main className="flex flex-col items-center text-center px-6 md:px-20 py-12 md:py-24 space-y-10 backdrop-blur-sm bg-black/70">
+    <GlassCTA />
         {/* Hero Section */}
         <motion.h2 
           className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight md:leading-snug"
@@ -35,7 +36,7 @@ const Homepage = () => {
         </motion.p>
 
         <motion.video 
-          className="w-full max-w-4xl aspect-video rounded-xl shadow-xl border border-gray-700"
+          className="w-full max-w-5xl aspect-video rounded-xl shadow-xl border border-gray-700"
           src="src/assets/hero-video.mp4"
           autoPlay loop muted playsInline
           initial={{ opacity: 0 }}
