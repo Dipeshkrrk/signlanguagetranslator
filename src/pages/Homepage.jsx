@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import HowToUse from '../components/HowToUse';
 import AboutUs from '../components/AboutUs';
+import CallToAction from '../components/CalltoAction';
 import { motion } from 'framer-motion';
 
 const Homepage = () => {
@@ -83,6 +84,7 @@ const Homepage = () => {
       />
 
       <AboutUs />
+      <CallToAction />
       <Footer />
     </div>
   );
