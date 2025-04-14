@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import HowToUse from '../components/HowToUse';
 import AboutUs from '../components/AboutUs';
-import CallToAction from '../components/CalltoAction';
+import CallToAction from '../components/CTA';
 import GlassCTA from '../components/GlassCTA';
 import { motion } from 'framer-motion';
 
