@@ -37,7 +37,8 @@ const Homepage = () => {
 
         <motion.video 
           className="w-full max-w-5xl aspect-video rounded-xl shadow-xl border border-gray-700"
-          src="https://media-hosting.imagekit.io/5e383f5a1cd44628/hero-video.mp4?Expires=1839249320&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Hvw8x0uwN1bwLhf0AvsoZx32pST-NTokh98eeJsi72eVnF9PGvKj8ib9TPQUSks5k~tCrlxHXZRHu-SxBdRGnzca2ADaawur0-qSTBar-w7N8XLUi6bLVxBk5~BMCqgZnQkwYShCEJqseiDsQ0YrFjgjj3S6sfB0FhJtGu9T2pS~mvB8gb5QLp2gLLw9WS49fKH09fVijTkOVfmnLk12d4EiB1ICmuqZKWbZ2qLt4FYh5TmMLA5BUSQpwIoAQLi4bKeA~I0F7hf09m00qNj3cDMJ6lio13odSjwAHH6aLto3ntrj8xS8AzeVNioddoGMziUZU7XeHrccCY~gsWkuSg__"
+          // src="https://media-hosting.imagekit.io/5e383f5a1cd44628/hero-video.mp4?Expires=1839249320&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Hvw8x0uwN1bwLhf0AvsoZx32pST-NTokh98eeJsi72eVnF9PGvKj8ib9TPQUSks5k~tCrlxHXZRHu-SxBdRGnzca2ADaawur0-qSTBar-w7N8XLUi6bLVxBk5~BMCqgZnQkwYShCEJqseiDsQ0YrFjgjj3S6sfB0FhJtGu9T2pS~mvB8gb5QLp2gLLw9WS49fKH09fVijTkOVfmnLk12d4EiB1ICmuqZKWbZ2qLt4FYh5TmMLA5BUSQpwIoAQLi4bKeA~I0F7hf09m00qNj3cDMJ6lio13odSjwAHH6aLto3ntrj8xS8AzeVNioddoGMziUZU7XeHrccCY~gsWkuSg__"
+          src="\hero-video.mp4"
           autoPlay loop muted playsInline
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
