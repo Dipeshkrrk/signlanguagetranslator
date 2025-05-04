@@ -36,12 +36,12 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6 text-white text-sm font-medium">
-          <a href="/" className="hover:text-red-400 transition">Home</a>
-          <a href="/about" className="hover:text-red-400 transition">About</a>
+          {/* <a href="/" className="hover:text-red-400 transition">Home</a> */}
+          {/* <a href="/about" className="hover:text-red-400 transition">About</a>
           <a href="/services" className="hover:text-red-400 transition">Services</a>
           <a href="/features" className="hover:text-red-400 transition">Features</a>
           <a href="/pricing" className="hover:text-red-400 transition">Pricing</a>
-          <a href="/works" className="hover:text-red-400 transition">Works</a>
+          <a href="/works" className="hover:text-red-400 transition">Works</a> */}
         </nav>
 
         {/* Sign Up or Initial (Desktop) */}
@@ -78,12 +78,12 @@ const Header = () => {
       {/* Mobile Dropdown Menu */}
       {menuOpen && (
         <div className="md:hidden mt-4 backdrop-blur-md bg-white/10 border border-white/20 rounded-xl mx-4 shadow-md text-white text-center py-4 space-y-3">
-          <a href="/" className="block hover:text-red-400 transition">Home</a>
-          <a href="/about" className="block hover:text-red-400 transition">About</a>
+          {/* <a href="/" className="block hover:text-red-400 transition">Home</a> */}
+          {/* <a href="/about" className="block hover:text-red-400 transition">About</a>
           <a href="/services" className="block hover:text-red-400 transition">Services</a>
           <a href="/features" className="block hover:text-red-400 transition">Features</a>
           <a href="/pricing" className="block hover:text-red-400 transition">Pricing</a>
-          <a href="/works" className="block hover:text-red-400 transition">Works</a>
+          <a href="/works" className="block hover:text-red-400 transition">Works</a> */}
           
           {userInitial ? (
             <>
