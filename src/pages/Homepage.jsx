@@ -55,7 +55,7 @@ const Homepage = () => {
         </motion.p>
 
         <motion.a 
-          href="/login"
+          href="http://localhost:5000/"
           className="inline-block bg-red-600 hover:bg-red-700 transition px-8 py-3 rounded-full font-semibold shadow-lg"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
