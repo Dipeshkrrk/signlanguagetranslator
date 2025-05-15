@@ -23,7 +23,7 @@ const CallToAction = () => {
             Step into the future of communication. Our AI translates ASL instantly — try it now and feel the magic.
           </p>
           <a
-            href="/login"
+            href="http://localhost:5000/"
             className="inline-block px-8 py-3 text-lg font-semibold text-white bg-red-600 rounded-full shadow-lg hover:shadow-red-500/50 hover:scale-105 transition-transform duration-300"
           >
             Try It Now

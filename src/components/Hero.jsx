@@ -20,7 +20,7 @@ const Hero = () => {
           An AI-powered solution designed to recognize and translate ASL finger-spelling into text.
         </motion.p>
         <motion.a 
-          href="/login"
+          href="http://localhost:5000/"
           className="mt-6 bg-red-600 px-6 py-2 rounded text-white hover:bg-red-700"
         >
           Try the Demo
