@@ -7,9 +7,10 @@ const GlassCTA = () => {
       <p className="text-xs sm:text-sm font-medium truncate z-10">
         We are the <span className="font-bold">voice</span> of the unfortunate
       </p>
-      <button className="ml-2 bg-gradient-to-r from-red-500 to-red-700 hover:opacity-90 p-1.5 rounded-full transition z-10">
-        <ArrowRight size={16} />
-      </button>
+      <a href="/signup" className="ml-2 bg-gradient-to-r from-red-500 to-red-700 hover:opacity-90 p-1.5 rounded-full transition z-10">
+  <ArrowRight size={16} />
+</a>
+
     </div>
   );
 };
