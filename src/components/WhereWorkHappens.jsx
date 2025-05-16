@@ -1,10 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import illustration from '/mnt/data/A_flat-style_vector_illustration_in_red,_black,_an.png';
 
 const WhereWorkHappens = () => {
   return (
-    <section className="w-full bg-black text-white py-16 px-6 lg:px-24 flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
+    <section className="w-full min-h-screen bg-black text-white py-16 px-6 lg:px-24 flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
       {/* Illustration */}
       <div className="w-full lg:w-1/2 flex justify-center animate-fade-in">
         <img
@@ -25,13 +24,13 @@ const WhereWorkHappens = () => {
 
         <div className="flex flex-col sm:flex-row items-center gap-4">
           <Link
-            to="/signup"
+            to="/homepage"
             className="bg-red-600 hover:bg-red-700 text-white text-lg font-medium px-6 py-3 rounded-lg transition duration-300"
           >
             Get Started
           </Link>
           <p className="text-sm text-gray-400">
-            Already using Slack?{' '}
+            Want to signin instead{' '}
             <Link to="/signup" className="underline text-gray-200 hover:text-white">
               Sign in
             </Link>

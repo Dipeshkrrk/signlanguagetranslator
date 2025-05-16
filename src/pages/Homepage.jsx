@@ -14,7 +14,6 @@ const Homepage = () => {
       className="min-h-screen bg-black text-white flex flex-col bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url('https://media-hosting.imagekit.io/8bfd284a18a24e75/ds.png?Expires=1839249320&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=hFebof4BsovkAe-i4atZ1Z4FATpFJLjnNEtm8MHYyRoEJC7Tx2WS7LTs66NS0gFf4AsqbVcbZvbO7-ue9dyhIlEQJjZvL2W~PGz4sSsaPyig1p0xFzQEID8wpmh5G2ChxutKvb1KY9PgO0A5DWp7sBCNbrtQSBcauF5V73o0EGsAktTJHnFHGSwZ9-13uSIUP2D1OP0cCICct2WYiNIL5pA3CYnim9RBJhsD0BYkB5d0OnTDQ8Q74KSPaQhE6TLeSG6cygffEbyIgm8ReHUQ~ksS0CNEVygb7jlldtoGc59A~xNcclstDmSDGg4Ts7CfbdniqZxCZq-WPdOCqSlctQ__')" }}
     >
-      <WhereWorkHappens/>
       <Header />
       <main className="flex flex-col items-center text-center px-6 md:px-20 py-12 md:py-24 space-y-10 backdrop-blur-sm bg-black/70">
     <GlassCTA />
