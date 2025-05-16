@@ -36,10 +36,10 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6 text-white text-sm font-medium">
-          {/* <a href="/" className="hover:text-red-400 transition">Home</a> */}
-          {/* <a href="/about" className="hover:text-red-400 transition">About</a>
-          <a href="/services" className="hover:text-red-400 transition">Services</a>
-          <a href="/features" className="hover:text-red-400 transition">Features</a>
+          <a href="/" className="hover:text-red-400 transition">Home</a>
+          <a href="#about" className="hover:text-red-400 transition">About</a>
+          <a href="#how-it-works" className="hover:text-red-400 transition">How It Works</a>
+          {/* <a href="/features" className="hover:text-red-400 transition">Features</a>
           <a href="/pricing" className="hover:text-red-400 transition">Pricing</a>
           <a href="/works" className="hover:text-red-400 transition">Works</a> */}
         </nav>
@@ -84,6 +84,9 @@ const Header = () => {
           <a href="/features" className="block hover:text-red-400 transition">Features</a>
           <a href="/pricing" className="block hover:text-red-400 transition">Pricing</a>
           <a href="/works" className="block hover:text-red-400 transition">Works</a> */}
+          <a href="#about" className="block hover:text-red-400 transition">About</a>
+          <a href="#how-it-works" className="block hover:text-red-400 transition">How It Works</a>
+
           
           {userInitial ? (
             <>

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const HowToUse = ({ steps }) => {
   return (
-    <section className="bg-black py-20 px-4 md:px-8 text-white">
+    <section className="bg-black py-20 px-4 md:px-8 text-white" id="how-it-works">
       <div className="text-center mb-16 max-w-3xl mx-auto">
         <h2 className="text-4xl font-bold mb-4 text-balance">How to Use It</h2>
         <p className="text-gray-400 text-lg">

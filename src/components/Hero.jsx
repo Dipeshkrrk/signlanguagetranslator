@@ -16,7 +16,7 @@ const Hero = () => {
           src="src/assets/hero-video.mp4"
           autoPlay loop muted playsInline
         />
-        <motion.p className="text-lg max-w-lg text-gray-300">
+        {/* <motion.p className="text-lg max-w-lg text-gray-300">
           An AI-powered solution designed to recognize and translate ASL finger-spelling into text.
         </motion.p>
         <motion.a 
@@ -24,7 +24,7 @@ const Hero = () => {
           className="mt-6 bg-red-600 px-6 py-2 rounded text-white hover:bg-red-700"
         >
           Try the Demo
-        </motion.a>
+        </motion.a> */}
       </main>
 
       {/* 🔽 New Sections */}
